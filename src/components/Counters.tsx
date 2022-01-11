@@ -13,11 +13,19 @@ function Counters() {
 
 
     return (
+        // <div className="ThreeCounters">
+        //     <div className="Counter1">
+        //         <button onClick= {numberUp1}>Up</button>
+        //         <span className="Number"> {count1} </span>
+        //         <button onClick= {numberDown1}>Down</button>
+        //     </div>
+        // </div>
+
         <div className="ThreeCounters">
-            <div className="Counter1">
-                <button onClick= {numberUp1}>Up</button>
-                <span className="Number"> {count1} </span>
-                <button onClick= {numberDown1}>Down</button>
+            <div className='Counter1'>
+                <button onClick={() => setCounter1(count1 + 1)}>Up</button>
+                <p>{count1}</p>
+                <button onClick={() => setCounter1(count1 - 1)}>Down</button>
             </div>
         </div>
 
