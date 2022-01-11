@@ -2,36 +2,22 @@ import React, {useState} from 'react';
 import '../Counters.css';
 
 function Counters() {
-    const [count, setCounter] = useState(0);
-
-    function numberUp() {
-        setCounter(prevCounter => prevCounter + 1);
+    const [count1, setCounter1] = useState(0);
+    
+    function numberUp1() {
+        setCounter1(prevCounter => prevCounter + 1);
+    }
+    function numberDown1() {
+        setCounter1(prevCounter => prevCounter - 1);
     }
 
-    function numberDown() {
-        setCounter(prevCounter => prevCounter - 1);
-    }
-
-    function resetNumbers() {
-        setCounter(0);
-    }
 
     return (
         <div className="ThreeCounters">
             <div className="Counter1">
-                <button onClick= {numberUp}>Up</button>
-                <span className="Number"> {count} </span>
-                <button onClick= {numberDown}>Down</button>
-            </div>
-            <div className="Counter2">
-                <button onClick= {numberUp}>Up</button>
-                <span className="Number"> {count} </span>
-                <button onClick= {numberDown}>Down</button>
-            </div>
-            <div className="Counter3">
-                <button onClick= {numberUp}>Up</button>
-                <span className="Number"> {count} </span>
-                <button onClick= {numberDown}>Down</button>
+                <button onClick= {numberUp1}>Up</button>
+                <span className="Number"> {count1} </span>
+                <button onClick= {numberDown1}>Down</button>
             </div>
         </div>
 
