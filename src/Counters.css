@@ -1,0 +1,29 @@
+.Counter1 {
+    border: 3px solid black;
+    display: inline-flex;
+    vertical-align: top;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Counter2 {
+    border: 3px solid black;
+    display: inline-flex;
+    vertical-align: top;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Counter3 {
+    border: 3px solid black;
+    display: inline-flex;
+    vertical-align: top;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
