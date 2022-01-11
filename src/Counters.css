@@ -1,8 +1,11 @@
+.ThreeCounters {
+    display: inline-flex;
+}
 .Counter1 {
     border: 3px solid black;
     display: inline-flex;
     vertical-align: top;
-    flex-direction: row;
+    flex-direction: column;
     margin: 5px;
     padding: 5px;
     text-align: center;
